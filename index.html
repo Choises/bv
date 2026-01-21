@@ -1,0 +1,121 @@
+<html lang="el"><head>
+  <meta charset="UTF-8">
+   <title>𝕸𝖚𝖘𝖎𝖈💕🌹𝕮𝖍𝖔𝖎𝖈𝖊𝖘</title>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	
+  margin: 0;
+  
+  background-size: cover;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.overlay {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.overlay h2 {
+    background:  none repeat scroll 0 0;
+    color: tan;
+    font-weight: 600;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: overlay;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+</head>
+<body translate="no">
+  <video playsinline="" muted="false" autoplay=""  loop="">
+     <source src="https://gra1.crystalweb.net:1936/barazatv/barazatv/playlist.m3u8" type="video/mp4">
+</video>
+</header>
+<div class="overlay">
+  <h2><link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield|Mr+De+Haviland|Great+Vibes|Lovers+Quarrel|Miss+Fajardose&amp;effect=3d|3d-float|anaglyph|emboss|fire|fire-animation|neon|outline|shadow-multiple|" rel="stylesheet" type="text/css" />
+ <p class="font-effect-fire-animation" style="font-family: 'Lovers Quarrel', cursive; font-size: 100px; color: #FF4500">Music Choices</p> 
+    <div></h2>
+</div><script>
+
+    var message = "𝕸𝖚𝖘𝖎𝖈💕🌹𝕮𝖍𝖔𝖎𝖈𝖊𝖘";
+
+    function clickIE4() {
+        if (event.button == 2) {
+            alert(message);
+            return false;
+        }
+    }
+
+    function clickNS4(e) {
+        if (document.layers || document.getElementById && !document.all) {
+            if (e.which == 2 || e.which == 3) {
+                alert(message);
+                return false;
+            }
+        }
+    }
+
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS4;
+    } else if (document.all && !document.getElementById) {
+        document.onmousedown = clickIE4;
+    }
+
+    document.oncontextmenu = new Function("alert(message);return false")
+</script>
+<script>
+
+    function disableselect(e) {
+        return false
+    }
+    function reEnable() {
+        return true
+    }
+    document.onselectstart = new Function("return false")
+    if (window.sidebar) {
+        document.onmousedown = disableselect
+        document.onclick = reEnable
+    }
+</script>
+<script>
+        window.oncontextmenu = function () {
+            console.log("Right Click Disabled");
+            return false;
+        }
+    </script><script type="x-shader/x-fragment" id="fragmentshader">
+  uniform sampler2D baseTexture;
+	uniform sampler2D bloomTexture;
+	varying vec2 vUv;
+	void main() {
+		gl_FragColor = ( texture2D( baseTexture, vUv ) + vec4( 1.0 ) * texture2D( bloomTexture, vUv ) );
+	}
+</script></div>
+</body></html>
